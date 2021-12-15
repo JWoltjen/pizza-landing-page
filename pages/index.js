@@ -6,11 +6,11 @@ export default function Home() {
   return (
     <div className={styles.container}>
       <Head>
-        <title>Virtual Pizza Restaurantf</title>
+        <title>Virtual Pizza Restaurant</title>
         <meta name="description" content="best Pizza shop on the internet" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      homepage
+      
     </div>
   )
 }

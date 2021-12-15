@@ -9,11 +9,13 @@ function Navbar() {
                 <div className={styles.callButton}>
                     <Image src="/img/telephone.png" alt="an icon of a telephone"  width="32" height="32"/>
                 </div>
-                <div className={styles.text}>Order Now!</div>
-                <div className={styles.text}>012 334 5566</div>
+                <div className={styles.texts}>
+                    <div className={styles.text}>Order Now!</div>
+                    <div className={styles.text}>012 334 5566</div>
+                </div>
             </div>
-            <div className={styles.item}></div>
-            <div className={styles.item}></div>
+            <div className={styles.item}>center</div>
+            <div className={styles.item}>right</div>
         </div>
     ); 
 }; 
