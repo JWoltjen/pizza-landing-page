@@ -14,8 +14,22 @@ function Navbar() {
                     <div className={styles.text}>012 334 5566</div>
                 </div>
             </div>
-            <div className={styles.item}>center</div>
-            <div className={styles.item}>right</div>
+            <div className={styles.item}>
+                <ul className={styles.list}>
+                    <li className={styles.listItem}>Homepage</li>
+                    <li className={styles.listItem}>Products</li>
+                    <li className={styles.listItem}>Menu</li>
+                    <Image src="/img/logo.png" alt="logo" width="160px" height="70px" />
+                    <li className={styles.listItem}>Events</li>
+                    <li className={styles.listItem}>Blog</li>
+                </ul>
+            </div>
+            <div className={styles.item}>
+                <div className={styles.cart}>
+                    <Image src="/img/cart.png" alt="logo" width="30px" height="30px" />
+                    <div className={styles.counter}>2</div>
+                </div>
+            </div>
         </div>
     ); 
 }; 
