@@ -6,7 +6,7 @@ function Footer() {
     return (
         <div className={styles.container}>
             <div className={styles.item}>
-                <Image src="/img/bg/png" layout="fill" alt="background"/>
+                <Image src="/img/bg.png" layout="fill" objectFit="contain" alt="background"/>
             </div>
             <div className={styles.item}>
                 <div className={styles.card}>
