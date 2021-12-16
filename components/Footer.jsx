@@ -1,6 +1,6 @@
 import React from 'react'
 import styles from '../styles/Footer.module.css'
-import Image from 'next/iamge'
+import Image from 'next/image'
 
 function Footer() {
     return (
@@ -21,8 +21,28 @@ function Footer() {
                         <br/> Mission, KS 
                         <br /> 913-944-6189
                     </p>
+                    <p className={styles.text}>
+                        2601 W 64th St. 
+                        <br/> Mission Hills, KS 
+                        <br /> 913-262-3141
+                    </p>
+                    <p className={styles.text}>
+                        800 W 9th St. 
+                        <br/> Merriam, KS 
+                        <br /> 913-963-6189
+                    </p>
                 </div>
-                <div className={styles.card}></div>
+                <div className={styles.card}>
+                    <h1 className={styles.title}>WORKING HOURS</h1>
+                    <p className={styles.text}>
+                        MONDAY THROUGH FRIDAY
+                        <br /> 9:00 - 9:00
+                    </p>
+                    <p className={styles.text}>
+                        SATURDAY AND SUNDAY
+                        <br /> 12:00 - 12:00
+                    </p>
+                </div>
             </div>
         </div>
     )
