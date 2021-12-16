@@ -1,5 +1,5 @@
 import React from 'react'
-import styles from '../styles.PizzaList.module.css'
+import styles from '../styles/PizzaList.module.css'
 import PizzaCard from './PizzaCard'
 
 function PizzaList() {
