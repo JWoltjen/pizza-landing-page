@@ -22,18 +22,19 @@ function Featured() {
     return (
         <div className={styles.container}>
             <div className={styles.arrowContainer} style={{left:0}} onClick={() =>handleArrow("l")}>
-            <Image src="/img/arrowl.png" alt="" layout="fill" />
+                <Image src="/img/arrowl.png" alt="" layout="fill" objectFit="contain"/>
             </div>
-            <div className={styles.wrapper}>
+
+            <div className={styles.wrapper} style={{transform:`translateX(${index})`}}>
                     {images.map((img, i) => (
                         <div key={i}  className={styles.imgContainer}>
                             <Image src={img} layout="fill" objectFit="contain"/>
                         </div>
                     ))}
-                
             </div>
+
             <div className={styles.arrowContainer} style={{right:0}} onClick={() =>handleArrow("r")}>
-                <Image src="/img/arrowr.png" layout='fill' alt ="" />
+                <Image src="/img/arrowr.png" layout='fill' alt=""objectFit="contain" />
             </div>
         </div>
     )
