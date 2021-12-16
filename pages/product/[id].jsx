@@ -1,9 +1,10 @@
-import React from 'react'
+import React, {useState} from 'react'
 import styles from '../../styles/Product.module.css';
 import Image from 'next/image'; 
 
 
 function Product () {
+    const [size, setSize] = useState(0)
     const pizza = {
         id: 1, 
         img: "/img/pizza.png", 
@@ -15,11 +16,13 @@ function Product () {
         <div className={styles.container}>
             <div className={styles.left}>
                 <div className={styles.imgContainer}>
-                    <Image alt="" src={pizza.img} layout="fill"/>
+                    <Image alt="" src={pizza.img} layout="fill" objectFit="contain"/>
                 </div>
             </div>
-            <div className={styles.right}></div>
-
+            <div className={styles.right}>
+                <h1 className={styles.title}>{pizza.name}</h1>
+                <span className={styles.price[size]}></span>
+            </div>
         </div>
     )
 }
