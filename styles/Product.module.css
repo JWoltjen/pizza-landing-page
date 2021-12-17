@@ -1,6 +1,7 @@
 .container {
     height: calc(100vh -100px);
     display: flex;
+    z-index: 5; 
 }
 
 .left{
@@ -61,4 +62,17 @@
     font-size: 12px; 
     padding: 0 5px; 
     border-radius: 10px; 
+}
+
+.ingredients {
+    display: flex; 
+    margin-bottom: 30px; 
+}
+
+.option {
+    display: flex;
+    align-items: center;
+    margin-right: 10px;
+    font-size: 14px; 
+    font-weight: 500; 
 }
