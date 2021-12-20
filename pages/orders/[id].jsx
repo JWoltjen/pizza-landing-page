@@ -17,7 +17,7 @@ const Order = () => {
                         <div classname={styles.totalText}>
                             <b className={styles.totalTextTitle}>Total</b>$79.60
                         </div>
-                        <button className={styles.button}>CHECKOUT NOW!</button>
+                        <button disabled className={styles.button}>Paid</button>
                 </div>
             </div>
         </div>
