@@ -133,7 +133,8 @@
         height: 25px; 
     }
 
-    .quantity, .button{
+    .quantity, 
+    .button{
         height: 50px;
         padding: 10px 20px; 
     }
