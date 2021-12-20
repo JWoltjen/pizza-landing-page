@@ -47,6 +47,11 @@
     opacity: 0.3; 
 }
 
+.undone .checkedIcon, 
+.inProgress .checkedIcon {
+    display: none; 
+}
+
 .right {
     flex: 1; 
 }
