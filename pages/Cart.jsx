@@ -44,6 +44,36 @@ function Cart() {
                             <span className={styles.total}>$39.88</span>
                         </td>
                     </tr>
+                    <tr className={styles.tr}>
+                        <td>
+                            <div className={styles.imgContainer}>
+                                <Image 
+                                    src="/img/pizza.png" 
+                                    height='100'
+                                    width='100'
+                                    objectFit="cover" 
+                                    alt="pizza"
+                                />
+                            </div>
+                        </td>
+                        <td>
+                            <span className={styles.name}>PEPPERONI</span>
+                        </td>
+                        <td>
+                            <span className={styles.extra}>
+                                Double ingredient, spicy sauce
+                            </span>
+                        </td>
+                        <td>
+                            <span className={styles.price}>$19.91</span>
+                        </td>
+                        <td>
+                            <span className={styles.quantity}>2</span>
+                        </td>
+                        <td>
+                            <span className={styles.total}>$39.88</span>
+                        </td>
+                    </tr>
                 </table>
             </div>
             <div className={styles.right}>
